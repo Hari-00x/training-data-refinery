@@ -18,6 +18,8 @@ data/processed/
 *.wet.gz
 *.warc.gz
 *.parquet
+wet.paths
+wet.paths.gz
 
 # Docker
 *.pid
