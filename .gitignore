@@ -1,0 +1,28 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Airflow runtime (generated, not code)
+logs/
+plugins/
+airflow.db
+airflow.cfg
+simple_auth_manager_passwords.json.generated
+.env
+
+# Raw / large data (never commit actual datasets)
+data/raw/
+data/processed/
+*.wet.gz
+*.warc.gz
+*.parquet
+
+# Docker
+*.pid
+
+# OS/editor junk
+.DS_Store
+.vscode/
+*.swp
