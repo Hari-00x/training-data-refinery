@@ -1,7 +1,7 @@
 from warcio.archiveiterator import ArchiveIterator
 from langdetect import detect, LangDetectException 
 
-with open("CC-MAIN-20241101184224-20241101214224-00000.warc.wet.gz",'rb') as stream:
+with open("../data/raw/CC-MAIN-20241101184224-20241101214224-00000.warc.wet.gz",'rb') as stream:
 
     count=0
 
