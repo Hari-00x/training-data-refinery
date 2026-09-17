@@ -21,6 +21,9 @@ with open("CC-MAIN-20241101184224-20241101214224-00000.warc.wet.gz",'rb') as str
             if lang != "en":
                 continue
 
+            if len(content)<200:
+                continue
+
             print(f"---Record{count}---")
 
             print(f"URL: {url}")
