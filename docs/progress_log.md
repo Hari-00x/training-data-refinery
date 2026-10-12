@@ -63,3 +63,6 @@ Spot check: the lowest-scored pages were navigation-heavy listings (an embassy p
 ## Next
 
 Rank-based shard selection (top 50% vs random 50% vs all data), Parquet packing, shard anomaly detection, small-model ablation, Airflow DAG, README.
+
+## Latest full Airflow run
+29,800 raw → 12,733 cleaned → 12,453 deduplicated (280 near-duplicates removed). Earlier runs gave slightly different counts because language detection is not seeded.
